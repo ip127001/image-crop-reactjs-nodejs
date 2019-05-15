@@ -12,9 +12,9 @@ if request comes true then 4 images are shown on second page ["http://localhost:
 ### backend
 ```
 node app
-as POST API hit on backend then it uses sharp api to crop image to 4 types.
-horizontal
-vertical
-horizontal-small
-gallary
+as POST API hit on backend then it uses "sharp api" to crop image to 4 types.
+1.horizontal
+2 vertical
+3.horizontal-small
+4.gallary
 ```
