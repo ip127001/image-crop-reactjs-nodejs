@@ -51,10 +51,4 @@ app.use((error, req, res, next) => {
     res.status(status).json({message: message, data: data});
 });
 
-mongoose.connect('mongodb+srv://rk:9pnwE86CrIBYXaWH@ecommerce-rs4wl.mongodb.net/images?retryWrites=true')
-    .then(result => {
-        app.listen(8080);
-    })
-    .catch(err => {
-        console.log(err);
-    })
+app.listen(8080);
