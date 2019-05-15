@@ -1,5 +1,4 @@
-const sharp = require('sharp');
-const ImageModel = require('../model/image');
+const sharp = require('sharp')
 
 exports.imageController = (req, res, next) => {
     console.log('her i am ahere', req.file.path);
